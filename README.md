@@ -8,10 +8,10 @@ Implemement of Instance Similarity Deep Hashing for Multi-Label Image Retrieval
 
 ### Getting Started:
 - Prepare the datasets  
-Download the [flickr dataset](http://press.liacs.nl/mirflickr/) and put the image into folder  `/data/flickr/images/`
+Download the [flickr dataset](http://press.liacs.nl/mirflickr/) and put the images into folder  `/data/flickr/images/`
   
 - Transform the train images in tfrecord format  
-Run `python tf_record.py`, and train-flickr.tfrecords will be generated
+Run `python tf_record.py`, and `train-flickr.tfrecords` will be generated
          
 - Prepare the AlexNet weights trained on ImageNet  
 Download from [here] (ww.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy) and put it on current directory
