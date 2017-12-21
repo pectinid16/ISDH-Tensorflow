@@ -4,7 +4,7 @@ Implemement of Instance Similarity Deep Hashing for Multi-Label Image Retrieval
 ### Requirements
 - [Linux](https://www.ubuntu.com/download)
 - [Tensorflow](https://www.tensorflow.org/)
-- [NVIDIA GPU + CUDA CuDNN] (https://developer.nvidia.com/cudnn)
+- [NVIDIA GPU + CUDA CuDNN](https://developer.nvidia.com/cudnn)
 
 ### Getting Started:
 - Prepare the datasets  
@@ -24,8 +24,8 @@ Run `sh test-flickr.sh`, and generated hash codes will be saved in `./results/IS
 
 
 ### Other Datasets:
-- [NUS-WIDE] (http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)
-- [VOC2012] (http://cvlab.postech.ac.kr/~mooyeol/pascal_voc_2012/)
+- [NUS-WIDE](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)
+- [VOC2012](http://cvlab.postech.ac.kr/~mooyeol/pascal_voc_2012/)
 
 ### Acknowledgement
 - [Tensorflow implementation of AlexNet] (https://kratzert.github.io/2017/02/24/finetuning-alexnet-with-tensorflow.html)    
