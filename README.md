@@ -14,7 +14,7 @@ Download the [flickr dataset](http://press.liacs.nl/mirflickr/) and put the imag
 Run `python tf_record.py`, and `train-flickr.tfrecords` will be generated
          
 - Prepare the AlexNet weights trained on ImageNet  
-Download from [here] (ww.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy) and put it on current directory
+Download from [here](ww.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy) and put it on current directory
    
 - Train:  
 Run `sh train-flickr.sh`, and the trained model will be saved in `models/ISDH-48b/`.
