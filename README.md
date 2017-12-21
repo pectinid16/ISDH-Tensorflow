@@ -9,19 +9,19 @@ Setup
 
 ### Getting Started:
   Prepare the datasets
-  Download the flickr dataset from the open available address (http://press.liacs.nl/mirflickr/) and put the image into './data/flickr/images/' folder 
+  	Download the flickr dataset from the open available address (http://press.liacs.nl/mirflickr/) and put the image into './data/flickr/images/' folder 
   
-  
-transform the train images in tfrecord format
-        run python tf_record.py, and train-flickr.tfrecords will be generated
+  
+  Transform the train images in tfrecord format
+        Run python tf_record.py, and train-flickr.tfrecords will be generated
          
-    Prepare the AlexNet weights trained on ImageNet
+  Prepare the AlexNet weights trained on ImageNet
         Download from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy and put it on current directory
    
-    Train:
+  Train:
 	Run sh train-flickr.sh, and the trained model will be saved in 'models/ISDH-48b/'.
 
-    Test:
+  Test:
 	Run sh test-flickr.sh, and generated hash codes will be saved in './results/ISDH_48b_test_flickr.txt'.
 
 
