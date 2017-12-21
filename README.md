@@ -28,5 +28,5 @@ Run `sh test-flickr.sh`, and generated hash codes will be saved in `./results/IS
 - [VOC2012](http://cvlab.postech.ac.kr/~mooyeol/pascal_voc_2012/)
 
 ### Acknowledgement
-- [Tensorflow implementation of AlexNet](https://kratzert.github.io/2017/02/24/finetuning-alexnet-with-tensorflow.html)    
+- [Tensorflow Implementation of AlexNet](https://kratzert.github.io/2017/02/24/finetuning-alexnet-with-tensorflow.html)    
     
